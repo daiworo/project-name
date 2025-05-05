@@ -5,10 +5,9 @@ body { background-color: #333333;
 #gallery { position: relative;
 }
 
-#gallery figure { position: absolute;
-                  left: 280px;
-                  text-align: center;
-                  opacity: 0.25;
+#gallery figure { text-align: center;
+  		  opacity: 0.25;
+                  margin-left: 280px;
 }
 
 #gallery ul { list-style: none;
@@ -23,26 +22,23 @@ body { background-color: #333333;
 #gallery img { border: none;
 }
 
-#gallery a { text-decoration: none;
-             color: #eaeaea;
-             font-style: italic;
+#gallery a { position: relative;
+             display: inline-block;
 }
 
-#gallery span { position: absolute; 
-		left: -1000px;                                                                                                                        
-                opacity: 0;
-                transition: opacity 3s ease-in-out;
+#gallery span { display: none;
+                position: absolute;
+                top: 80px;
+                left: 0;
+                background-color: #222;
+                padding: 10px;
+                z-index: 100;
+                border: 2px solid #ccc;
 }
 
-#gallery a:hover span { position: absolute; 
-			top: 16px;  
-                        left: 320px;
-                        text-align: center;
-                        opacity: 1; 
+#gallery a:hover span { display: block; 
 }
 
 
-footer, table {
-  margin-top: 40px;
-}
+
 
