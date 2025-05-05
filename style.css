@@ -41,3 +41,7 @@ body { background-color: #333333;
                         opacity: 1; 
 }
 
+footer, table {
+  margin-top: 40px;
+}
+
