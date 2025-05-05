@@ -1,0 +1,16 @@
+body {
+  background-color: #333333;
+  color: #eaeaea;
+}
+
+#gallery {
+  position: relative;
+}
+
+#gallery figure {
+  position: absolute;
+  left: 280px;
+  text-align: center;
+  opacity: 0.25;
+}
+
