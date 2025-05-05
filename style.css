@@ -39,6 +39,12 @@ body { background-color: #333333;
 #gallery a:hover span { display: block; 
 }
 
+#gallery::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 
 
 
