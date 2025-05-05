@@ -3,24 +3,16 @@ body { background-color: #333333;
 }
 
 #gallery { position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 50px;
 }
 
-#gallery figure { ;position: static;  
-  text-align: center;
-  opacity: 1;         
-  margin-bottom: 20px;
+#gallery figure { position: absolute;
+                  left: 280px;
+                  text-align: center;
+                  opacity: 0.25;
 }
 
 #gallery ul { list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+              width: 300px;
 }
 
 #gallery li { display: inline;
@@ -36,10 +28,10 @@ body { background-color: #333333;
              font-style: italic;
 }
 
-#gallery span { position: absolute;
-  left: -9999px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+#gallery span { position: absolute; 
+		left: -1000px;                                                                                                                        
+                opacity: 0;
+                transition: opacity 3s ease-in-out;
 }
 
 #gallery a:hover span { position: absolute; 
@@ -48,6 +40,7 @@ body { background-color: #333333;
                         text-align: center;
                         opacity: 1; 
 }
+
 
 footer, table {
   margin-top: 40px;
