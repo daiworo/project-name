@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Us</title>
+  <meta name="description" content="Send us a message with your questions or feedback.">
+  <meta name="keywords" content="contact form, email, feedback, inquiry">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Contact Us</h1>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Gallery</a></li>
+      <li><a href="image1.html">Image 1</a></li>
+      <li><a href="image2.html">Image 2</a></li>
+      <li><a href="image3.html">Image 3</a></li>
+      <li><a href="image4.html">Image 4</a></li>
+      <li><a href="image5.html">Image 5</a></li>
+      <li><a href="image6.html">Image 6</a></li>
+      <li><a href="info.html">Info</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Send Us a Message</h2>
+    <form action="mailto:your@email.com" method="post" enctype="text/plain" style="max-width: 500px; margin: auto;">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required style="width: 100%; margin-bottom: 10px;"><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required style="width: 100%; margin-bottom: 10px;"><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required style="width: 100%; margin-bottom: 10px;"></textarea><br>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </main>
+
+</body>
+</html>
