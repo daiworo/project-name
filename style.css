@@ -23,9 +23,9 @@
 #gallery img { border: none;
 }
 
-#gallery a { text-decoration: none;
-             color: #eaeaea;
-             font-style: italic;
+#gallery a { text-decoration: underline;
+             color: blue;
+             font-style: normal;
 }
 
 #gallery span { position: absolute; 
