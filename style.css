@@ -12,12 +12,16 @@
 }
 
 #gallery ul { list-style: none;
-              width: 300px;
+              padding: 0;
+  	      margin: 0;
+  	      display: flex;             
+ 	      flex-wrap: wrap;            
+ 	      justify-content: center;    
+              gap: 20px;   
 }
 
-#gallery li { display: inline;
-              float: left;
-              padding: 10px;
+#gallery li { display: inline-block;
+              
 }
 
 #gallery img { border: none;
